@@ -1,6 +1,13 @@
-mod inflect_rs;
+#![doc = include_str!("../README.md")]
 
-/// inflect_rs is a Rust port of the Python inflect library.
-/// It is used to generate plurals, ordinals, indefinite articles, and to convert numbers to words.
+mod data;
+mod engine;
+mod error;
+mod inflect_call;
+mod numbers;
+mod text;
+mod types;
 
-pub use crate::inflect_rs::*;
+pub use engine::Engine;
+pub use error::Error;
+pub use types::{Classical, Comparison, Count, Gender, JoinOptions, NumberToWordsOptions};
