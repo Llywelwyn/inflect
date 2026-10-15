@@ -1,7 +1,7 @@
 [package]
 name = "inflect-rs"
 version = "0.26.0"
-authors = ["Lewis Wynne <lewis@llyw.co.uk>"]
+authors = ["Lewis Wynne <lewis@wynne.rs>"]
 edition = "2021"
 rust-version = "1.82"
 publish = true
